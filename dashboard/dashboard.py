@@ -44,7 +44,7 @@ TARGET = 'Survived'
 
 # subir el dataset
 @st.cache_data
-def load_data(default_path: str = "/Users/luisgarcia/Documents/LuisCoding/Septimo/1 Periodo/reto/Sesgos Entrega 2.csv") -> pd.DataFrame:
+def load_data(default_path: str = "data/Titanic-Dataset.csv") -> pd.DataFrame:
     if os.path.exists(default_path):
         df = pd.read_csv(default_path)
     else:
