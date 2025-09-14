@@ -1,0 +1,4 @@
+# Requisitos mínimos para instalar dependencias
+# Ejecutar en consola:
+
+npm i
